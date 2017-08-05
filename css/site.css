@@ -1,7 +1,14 @@
+html {
+  color: white;
+  font-family: arial;
+}
+
 body.story-step {
+  background: no-repeat center center fixed;
   background-size: cover;
 }
 
-html {
+a {
   color: white;
+  font-weight: bold;
 }
