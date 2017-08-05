@@ -3,9 +3,26 @@ html {
   font-family: arial;
 }
 
-body.story-step {
+body {
+  height: 100%;
+}
+
+section.story-step {
   background: no-repeat center center fixed;
   background-size: cover;
+  height: 100vh;
+}
+
+section.setup {
+  background-image: url('../img/setup.png');
+}
+
+section.confrontation {
+  background-image: url('../img/confrontation.png');
+}
+
+section.climax {
+  background-image: url('../img/climax.png');
 }
 
 a {
