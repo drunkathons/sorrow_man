@@ -1,3 +1,7 @@
 body.story-step {
   background-size: cover;
 }
+
+html {
+  color: white;
+}
