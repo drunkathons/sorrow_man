@@ -7,25 +7,54 @@ body {
   height: 100%;
 }
 
-section.story-step {
+.story-step {
   background: no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+  position: relative;
 }
 
-section.setup {
+.setup {
   background-image: url('../img/setup.png');
 }
 
-section.confrontation {
+.confrontation {
   background-image: url('../img/confrontation.png');
 }
 
-section.climax {
+.climax {
   background-image: url('../img/climax.png');
 }
 
 a {
   color: white;
   font-weight: bold;
+}
+
+.story-step p:first-of-type {
+  margin-top: 0;
+}
+
+.story-step p:last-of-type {
+  margin-bottom: 0;
+}
+
+.setup p {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.confrontation p {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+}
+
+.climax p {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
